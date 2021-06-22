@@ -1,0 +1,71 @@
+.region-dropdown {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #2b3945;
+}
+
+.region-dropdown .dropbtn {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  font-weight: 300;
+  height: 60px;
+}
+
+.region-dropdown .drop-active {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.region-dropdown .regions {
+  width: 100%;
+  display: none;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  z-index: 1;
+  top: 65px;
+  border-radius: 5px;
+  background-color: #2b3945;
+}
+
+.region-dropdown .regions span {
+  float: none;
+  cursor: pointer;
+  display: block;
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+/*# sourceMappingURL=filter.css.map */

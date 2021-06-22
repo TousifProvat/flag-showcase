@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,YAAY,CAAC;EACX,MAAM,EAAE,OAAO;EACf,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EEAjB,KAAW,EDFP,KAAgB;CDiBvB;;AAlBD,AAME,YANU,CAMV,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CAIpB;;AAZH,AASI,YATQ,CAMV,KAAK,CAGH,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;CACZ;;AAXL,AAaE,YAbU,CAaV,UAAU,CAAC;EACT,YAAY,EAAE,MAAM;EACpB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "switch.scss",
+        "../../../sassStyles/_variable.scss",
+        "../../../sassStyles/_mixin.scss",
+        "../../../sassStyles/_variable.scss"
+    ],
+    "names": [],
+    "file": "switch.css"
+}

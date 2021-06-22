@@ -1,0 +1,58 @@
+@import './fonts';
+@import './variable';
+
+#body {
+  transition: background-color 0.4s ease-in-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $nunito;
+  background-color: var(--background-color);
+}
+
+input,
+a,
+button {
+  font-family: $nunito;
+  text-decoration: none;
+}
+
+svg {
+  width: 25px;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 980px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 90%;
+  }
+}

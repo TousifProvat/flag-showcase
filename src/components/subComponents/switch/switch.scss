@@ -1,0 +1,22 @@
+@import '../../../sassStyles/variable';
+
+.switch-mode {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  // transition: color 0.4s ease-in-out;
+
+  .icon {
+    display: flex;
+    align-items: center;
+    svg {
+      width: 1rem;
+    }
+  }
+  .mode-name {
+    padding-left: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}

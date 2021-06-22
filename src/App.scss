@@ -1,0 +1,17 @@
+@import './sassStyles/global';
+
+// scrollbar
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: var(--element-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: var(--background-color);
+}

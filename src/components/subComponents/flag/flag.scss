@@ -1,0 +1,64 @@
+@import '../../../sassStyles/variable';
+
+.flag {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 5px;
+  background-color: var(--element-color);
+  overflow: hidden;
+  box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.09);
+
+  .flag-img {
+    img {
+      height: 206px;
+    }
+  }
+
+  .country-details {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    padding-bottom: 2.5rem;
+    .country-name {
+      font-size: 1.4rem;
+      color: var(--text-color);
+      padding-bottom: 1rem;
+    }
+    p {
+      color: var(--text-color);
+      padding: 0.2rem 0;
+      b {
+        font-weight: 600;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .flag {
+    width: 220px;
+
+    .flag-img {
+      img {
+        height: 156px;
+      }
+    }
+
+    .country-details {
+      padding: 0.5rem 2rem;
+      padding-bottom: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .flag {
+    width: 90%;
+    .flag-img {
+      img {
+        height: auto;
+      }
+    }
+  }
+}

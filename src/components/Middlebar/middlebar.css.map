@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,MAAM;CAMhB;;AATD,AAKE,WALS,CAKT,UAAU,CAAC;EACT,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;CAC/B",
+    "sources": [
+        "middlebar.scss"
+    ],
+    "names": [],
+    "file": "middlebar.css"
+}

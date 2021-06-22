@@ -1,0 +1,57 @@
+.search-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 400px;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1rem;
+  background-color: #2b3945;
+  border-radius: 5px;
+}
+
+.search-bar .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 1rem;
+}
+
+.search-bar .icon svg {
+  width: 20px;
+  color: white;
+}
+
+.search-bar .search-input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: transparent;
+  border: none;
+  font-weight: 300;
+  font-size: 1.1rem;
+  outline: none;
+  color: white;
+}
+
+.search-bar .search-input::-webkit-input-placeholder {
+  color: white;
+}
+
+.search-bar .search-input:-ms-input-placeholder {
+  color: white;
+}
+
+.search-bar .search-input::-ms-input-placeholder {
+  color: white;
+}
+
+.search-bar .search-input::placeholder {
+  color: white;
+}
+/*# sourceMappingURL=searchBar.css.map */

@@ -1,0 +1,35 @@
+// colors
+$white: hsl(0, 0%, 100%); //text //input
+
+// light-mode
+$very-dark-blue: hsl(200, 15%, 8%); //text
+$dark-gray: hsl(0, 0%, 52%); //input
+$very-light-gray: hsl(0, 0%, 98%); //background
+$light-gray: #85858533; //img-bg
+$loading-light: rgb(235, 231, 231); //skeleton-loading
+
+// dark-mode
+$dark-blue: hsl(209, 23%, 22%); //element //img-bg
+$very-dark-blue-dm: hsl(207, 26%, 17%); //background
+$loading-dark: hsl(207, 23%, 26%); //skeleton-loading
+
+// transition
+$transition: all 0.1s ease-in-out;
+
+:root {
+  --background-color: #{$very-dark-blue-dm};
+  --text-color: #{$white};
+  --element-color: #{$dark-blue};
+  --input-color: #{$white};
+  --img-bg-color: #{$dark-blue};
+  --skeleton-loading: #{$loading-dark};
+}
+
+.light {
+  --background-color: #{$very-light-gray};
+  --text-color: #{$very-dark-blue};
+  --element-color: #{$very-light-gray};
+  --input-color: #{$dark-gray};
+  --img-bg-color: #{$light-gray};
+  --skeleton-loading: #{$loading-light};
+}

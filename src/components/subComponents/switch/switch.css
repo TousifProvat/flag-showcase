@@ -1,0 +1,30 @@
+.switch-mode {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.switch-mode .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.switch-mode .icon svg {
+  width: 1rem;
+}
+
+.switch-mode .mode-name {
+  padding-left: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=switch.css.map */
