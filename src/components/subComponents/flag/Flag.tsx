@@ -1,6 +1,7 @@
 import './flag.scss';
 
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 interface propType {
   name: string;
@@ -33,7 +34,7 @@ export default function Flag({
   }, []);
 
   return (
-    <a className="flag" href={`/${name}`}>
+    <Link className="flag" to={`/${name}`}>
       <div className="flag-img">
         {loading && <div className="loading"></div>}
         {!loading && <img src={flag} alt={name} />}
@@ -50,6 +51,6 @@ export default function Flag({
           <b>Capital:</b> {capital}
         </p>
       </div>
-    </a>
+    </Link>
   );
 }

@@ -28,6 +28,7 @@ export default function SearchBar() {
         <SearchIcon />
       </div>
       <input
+        name="searchbar for countries"
         type="text"
         className="search-input"
         placeholder="Search for a country..."
