@@ -158,10 +158,20 @@
 
 @media screen and (max-width: 425px) {
   #flag-page {
+    .container {
+      flex-direction: column;
+      min-height: 90vh;
+      padding-top: 2rem;
+
+      .go-back {
+        margin-bottom: 2rem;
+      }
+    }
     .flag-page-container {
       display: flex;
       flex-direction: column;
       .left-side {
+        padding-bottom: 1.5rem;
         .flag-img {
           max-width: 100%;
 

@@ -1,5 +1,7 @@
 import './flag.scss';
 
+import { useEffect, useState } from 'react';
+
 interface propType {
   name: string;
   population: number;
@@ -15,10 +17,26 @@ export default function Flag({
   capital,
   flag,
 }: propType) {
+  // state
+  const [loading, setLoading] = useState(true);
+
+  const changeLoading = () => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 500);
+  };
+
+  useEffect(() => {
+    changeLoading();
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <a className="flag" href={`/${name}`}>
       <div className="flag-img">
-        <img src={flag} alt={name} />
+        {loading && <div className="loading"></div>}
+        {!loading && <img src={flag} alt={name} />}
       </div>
       <div className="country-details">
         <h2 className="country-name">{name}</h2>
