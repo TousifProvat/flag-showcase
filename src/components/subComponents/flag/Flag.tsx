@@ -34,7 +34,7 @@ export default function Flag({
   }, []);
 
   return (
-    <Link className="flag" to={`/${name}`}>
+    <Link className="flag" to={`/${name.replaceAll(' ', '-')}`}>
       <div className="flag-img">
         {loading && <div className="loading"></div>}
         {!loading && <img src={flag} alt={name} />}

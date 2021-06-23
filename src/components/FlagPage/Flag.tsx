@@ -46,7 +46,7 @@ export default function Flag() {
   };
 
   useEffect(() => {
-    getCountry(name);
+    getCountry(name.replaceAll('-', ' '));
     changeLoading();
     // eslint-disable-next-line
   }, []);
