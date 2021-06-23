@@ -24,7 +24,7 @@ export default function Flag({
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 500);
+    }, 100);
   };
 
   useEffect(() => {
